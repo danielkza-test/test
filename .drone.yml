@@ -1,0 +1,5 @@
+build:
+  image: danielkza/scala-sbt:0.13.13_2.11.8
+  commands:
+    - sbt clean compile package
+
